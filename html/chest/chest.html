@@ -1,0 +1,43 @@
+<!-- Start of second page -->
+<div data-role="page" id="chest-page">
+
+    <div data-role="header" style="overflow:hidden;">
+        <a class="back" href="#" data-icon="back" data-rel="back" ></a>
+        <h1>Chest</h1>
+        <a href="#popupAddExercise" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-plus ui-btn-icon-left ui-btn-a" data-transition="pop">Add Exercise</a>
+        <div data-role="popup" id="popupAddExercise" data-theme="a" class="ui-corner-all">
+            <form>
+                <div style="padding:10px 20px;">
+                    <label for="un" class="ui-hidden-accessible">Name</label>
+                    <input name="name" id="un" value="" placeholder="name" data-theme="a" type="text">
+                    <label for="sets">Sets:</label>
+                    <input name="sets" id="sets" value="4" min="1" max="10" step="1" data-highlight="true" type="range">
+                    <label for="weight">Weight:</label>
+                    <input name="weight" id="weight" value="100" min="0" max="250" step="5" data-highlight="true" type="range">
+                    <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Create</button>
+                </div>
+            </form>
+        </div>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+        <div data-role="tabs" id="tabs">
+            <div data-role="navbar">
+            <ul>
+                <li><a class="ui-btn-active" href="#exercise" data-icon="bars" >Exercise</a></li>
+                <li><a href="#stats" data-icon="clock">Stats</a></li>
+            </ul>
+        </div><!-- /navbar -->
+            <div id="exercise" class="ui-body-d ui-content">
+                exercise
+            </div>
+            <div id="stats" class="ui-body-d ui-content">
+                stats
+            </div>
+        </div>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
