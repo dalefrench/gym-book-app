@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": "1",
+        "name": "bar squats",
+        "muscleGroupId": "6"
+    },
+    "2": {
+        "id": "2",
+        "name": "bar lunges",
+        "muscleGroupId": "6"
+    },
+    "3": {
+        "id": "3",
+        "name": "hamstring curls",
+        "muscleGroupId": "6"
+    },
+    "4": {
+        "id": "4",
+        "name": "quad curls",
+        "muscleGroupId": "6"
+    },
+    "5": {
+        "id": "5",
+        "name": "calfs",
+        "muscleGroupId": "6"
+    }
+}

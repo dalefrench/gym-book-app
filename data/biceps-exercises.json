@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": "1",
+        "name": "standing bar curls",
+        "muscleGroupId": "3"
+    },
+    "2": {
+        "id": "2",
+        "name": "preacher curls",
+        "muscleGroupId": "3"
+    },
+    "3": {
+        "id": "3",
+        "name": "seated curls",
+        "muscleGroupId": "3"
+    },
+    "4": {
+        "id": "4",
+        "name": "hammer curls",
+        "muscleGroupId": "3"
+    },
+    "5": {
+        "id": "5",
+        "name": "chin ups",
+        "muscleGroupId": "3"
+    }
+}

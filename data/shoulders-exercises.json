@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id": "1",
+        "name": "dumbbell press",
+        "muscleGroupId": "4"
+    },
+    "2": {
+        "id": "2",
+        "name": "standing row",
+        "muscleGroupId": "4"
+    },
+    "3": {
+        "id": "3",
+        "name": "tea cups",
+        "muscleGroupId": "4"
+    },
+    "4": {
+        "id": "4",
+        "name": "behind head press",
+        "muscleGroupId": "4"
+    },
+    "5": {
+        "id": "5",
+        "name": "shrugs",
+        "muscleGroupId": "4"
+    }
+}

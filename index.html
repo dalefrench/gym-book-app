@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="gymBook" lang="en">
 <head>
-    <title>Gym Book</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Gym-Book</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
+<div class="">
+
+    <!--<nav class="navbar navbar-default bg-primary" role="navigation">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-xs-12">
+                    <a class="navbar-brand" href="#">Gym-Book</a>
+                </div>
+            </div>
+        </div>
+    </nav>-->
+
+    <nav class="customNav bg-primary main-nav-bar">
+        <div class="row">
+            <div class="col-xs-10">
+                <p class="navbar-brand">Gym Book</p>
+            </div>
+            <div class="col-xs-2">
+                <button class="bg-primary settings-nav-btn"><span class="glyphicon glyphicon-cog"></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid main-container">
+        <!--Place Holder For Views-->
+        <div data-ng-view=""></div>
+    </div>
+
+</div>
 
 
-<!-- Start of first page -->
-<div data-role="page" id="foo">
 
-    <div data-role="header" style="overflow:hidden;">
-        <h1>Gym Book</h1>
-        <div data-role="navbar">
-            <ul>
-                <li><a class="ui-btn-active" href="#" data-icon="bars" >Muscle Group</a></li>
-                <li><a href="html/global-stats.html" data-icon="clock">Stats</a></li>
-                <li><a href="html/settings.html" data-icon="gear">Settings</a></li>
-            </ul>
-        </div><!-- /navbar -->
-    </div><!-- /header -->
+<script src="angular-1.2.11/angular.min.js"></script>
+<script src="angular-1.2.11/angular-route.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <div role="main" class="ui-content">
-        <a href="html/chest/chest.html" class="ui-btn" data-transition="flip" data-prefetch="true">Chest</a>
-        <a href="tricep/tricep.html" class="ui-btn" data-transition="flip">Tricep</a>
-        <a href="bicep/bicep.html" class="ui-btn" data-transition="flip">Bicep</a>
-        <a href="shoulders/shoulders.html" class="ui-btn" data-transition="flip">Shoulders</a>
-        <a href="back/back.html" class="ui-btn" data-transition="flip">Back</a>
-        <a href="legs/legs.html" class="ui-btn" data-transition="flip">Legs</a>
-    </div><!-- /content -->
-
-    <div data-role="footer">
-        <h4></h4>
-    </div><!-- /footer -->
-</div><!-- /page -->
-
+<!-- App libs -->
+<script src="app/app.js"></script>
+<script src="app/controllers/controllers.js"></script>
+<script src="app/services/services.js"></script>
+<script src="app/filters/filters.js"></script>
 </body>
 </html>

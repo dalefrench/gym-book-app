@@ -1,0 +1,14 @@
+<div>
+    <ul>
+        <li data-ng-repeat="exercise in exercises"><a href="#/muscle/{{exercise.name}}">{{exercise.name | firstCharUpper}}</a></li>
+    </ul>
+</div>
+<h3>Add New Exercise</h3>
+<br />
+Name
+<br />
+<input type="text" data-ng-model="newExercise.name">
+<br />
+<button data-ng-click="addNewExercise()">Add +</button>
+<br />
+<a href="#">HOME</a>

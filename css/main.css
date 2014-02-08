@@ -1,9 +1,96 @@
+/*GLOBAL*/
+body{
+    background-color: #ffffff;
+}
 /*Navigation*/
 
 a.back{
     padding: 17px;
     background-color: #C12E2A;
 }
+
+/*.settings-nav-btn{
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #ddd;
+}*/
+
+.settings-nav-btn{
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 5px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+
+.main-nav-bar{
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/*MAIN CONTAINER*/
+    .main-container{
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+
+/*HOME*/
+
+.main-options-list button{
+    color:  #8dd2ff;
+    background-color: #ffffff;
+    border: 1px solid #8dd2ff;
+}
+
+.main-options-list button span{
+    float: right;
+    margin-right: 20px;
+}
+
+.add-new-routine-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.add-new-routine-container button{
+    border-radius: 0px !important;
+}
+
+.add-new-routine-form-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #8dd2ff;
+    display: none;
+}
+
+.add-new-routine-input-container{
+    padding: 10px;
+}
+
+
 /*HELPER CLASSES*/
 
 .pd-3 {
@@ -20,4 +107,20 @@ a.back{
 
 .mt-10{
     margin-top: 10px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.btn-no-rad{
+    border-radius: 0px;
 }

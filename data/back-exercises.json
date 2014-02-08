@@ -1,0 +1,32 @@
+{
+    "1": {
+        "id": "1",
+        "name": "deadlifts",
+        "muscleGroupId": "5"
+    },
+    "2": {
+        "id": "2",
+        "name": "wide pull ups",
+        "muscleGroupId": "5"
+    },
+    "3": {
+        "id": "3",
+        "name": "wide rear pull down",
+        "muscleGroupId": "5"
+    },
+    "4": {
+        "id": "4",
+        "name": "close pull down",
+        "muscleGroupId": "5"
+    },
+    "5": {
+        "id": "5",
+        "name": "seated row",
+        "muscleGroupId": "5"
+    },
+    "6": {
+        "id": "6",
+        "name": "cable extensions",
+        "muscleGroupId": "5"
+    }
+}
