@@ -24,6 +24,7 @@ app.service('musclesService', function () {
 
 });
 
+/*
 app.service('dbControl', function(musclesService){
     var db = openDatabase('gymBook', '1.0', 'my first database', 2 *1024 * 1024);
     var $this = this;
@@ -77,4 +78,4 @@ app.service('dbControl', function(musclesService){
         });
     }
 
-});
+});*/

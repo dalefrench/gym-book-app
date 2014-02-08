@@ -1,4 +1,4 @@
-app.controller('HomeController', function($scope, $routeParams, getMuscleGroups, dbControl){
+app.controller('HomeController', function($scope, $routeParams, getMuscleGroups){
     /*dbControl.checkMuscleGroupsExist(function(success){
         if(success){
             dbControl.retrieveMuscles(function(muscles){
