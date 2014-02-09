@@ -1,17 +1,16 @@
-<!--<div>
-    <ul>
-        <li data-ng-repeat="muscle in muscles"><a href="#/muscle/{{muscle.name}}">{{muscle.name | firstCharUpper}}</a></li>
-    </ul>
-</div>-->
-
 <div class="main-options-list">
     <div class="row mb-15" ng-repeat="muscle in muscles">
-        <div class="col-xs-12">
-            <button class="btn col-xs-12 btn-lg btn-block btn-no-rad">{{muscle.name | firstCharUpper}} <span class="glyphicon glyphicon-chevron-right"></span></button>
+        <div class="col-xs-12 enter-routine-row" ng-show="!showDelete" ng-swipe-left="showDelete = true">
+            <button class="routine-btn btn col-xs-12 btn-lg btn-block btn-no-rad">{{muscle.name | firstCharUpper}} <span class="glyphicon glyphicon-chevron-right"></span></button>
+        </div>
+        <div class="col-xs-12" ng-show="showDelete" ng-swipe-right="showDelete = false">
+            <div class="row delete-routine-row">
+                <div class="col-xs-9"><p class="text-danger">Deleting this routine will also delete any data associated with it.</p></div>
+                <div class="col-xs-3"><button class="btn btn-danger btn-lg btn-no-rad pull-right"><span class="glyphicon glyphicon-trash"></span></button></div>
+            </div>
         </div>
     </div>
 </div>
-
 
 <div class="add-new-routine-container">
     <div class="add-new-routine-btn-container">
@@ -43,24 +42,10 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <button class="btn-no-rad btn btn-success btn-block">Add Routine <span class="glyphicon glyphicon-ok"></span></button>
+                    <button ng-click="addNewRoutine()" class="btn-no-rad btn btn-success btn-block">Add Routine <span class="glyphicon glyphicon-ok"></span></button>
                 </div>
             </div>
         </form>
     </div>
 
 </div>
-
-<!--
-<h2>Add New Muscle!</h2>
-<br />
-Name:
-<br />
-    <input type="text" data-ng-model="newMuscle.name">
-<br />
-    <button data-ng-click="addNewMuscle()">Add New Muscle</button>
-<br />
-<br />
-
-<a href="#/muscle">Go to Muscles</a>
-<a href="#/settings">Go to Settings</a>-->

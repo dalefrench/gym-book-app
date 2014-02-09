@@ -1,4 +1,4 @@
-var app = angular.module('gymBook', ['ngRoute']);
+var app = angular.module('gymBook', ['ngRoute', 'ngTouch']);
 
 app.config(function ($routeProvider) {
     $routeProvider
@@ -7,11 +7,15 @@ app.config(function ($routeProvider) {
             controller: 'HomeController',
             templateUrl: 'app/views/home.html',
             resolve :{
-                getMuscleGroups:function($q, $route, $timeout, musclesService){
+                getMuscleGroups:function($q, $route, $timeout, dbControl){
                     var deferred = $q.defer();
 
-                    musclesService.getMuscleGroups(function(muscles){
-                        deferred.resolve(muscles)
+                    dbControl.checkMuscleGroupsExist(function(success){
+                        if(success){
+                            dbControl.retrieveMuscles(function(muscles){
+                                deferred.resolve(muscles)
+                            });
+                        }
                     });
 
                     return deferred.promise;

@@ -4,11 +4,11 @@
     <list default="true" id="cda9d398-c794-4749-afc8-62b0355a1ec8" name="Default" comment="" />
     <ignored path="gym-app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391871571206" ignored="false" />
-    <file path="/main.css" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391868805245" ignored="false" />
+    <file path="/index.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391952614747" ignored="false" />
+    <file path="/main.css" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391959875019" ignored="false" />
     <file path="/index2.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391377484033" ignored="false" />
     <file path="/chest.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391555503177" ignored="false" />
-    <file path="/home.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391869073962" ignored="false" />
+    <file path="/home.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391959713590" ignored="false" />
     <file path="/settings.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391672339794" ignored="false" />
     <file path="/global-stats.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391380150042" ignored="false" />
     <file path="/muscle-group.json" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391540597137" ignored="false" />
@@ -16,9 +16,9 @@
     <file path="/chest-exercises.json" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391555164597" ignored="false" />
     <file path="/muscle-group.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391555708524" ignored="false" />
     <file path="/angular-index.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391715294699" ignored="false" />
-    <file path="/controllers.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391869340914" ignored="false" />
-    <file path="/services.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391870608153" ignored="false" />
-    <file path="/app.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391714699429" ignored="false" />
+    <file path="/controllers.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391950889866" ignored="false" />
+    <file path="/services.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391951486228" ignored="false" />
+    <file path="/app.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391952591098" ignored="false" />
     <file path="/muscles.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391716257029" ignored="false" />
     <file path="/filters.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391715397338" ignored="false" />
     <file path="/angular-index2.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391728502405" ignored="false" />
@@ -43,37 +43,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-24.192308">
+            <state line="50" column="6" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.8142077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="79" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="7" selection-start="1883" selection-end="1883" vertical-scroll-proportion="-29.884615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="137" selection-end="137" vertical-scroll-proportion="-3.4">
+            <state line="100" column="20" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,23 +64,41 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="59" selection-start="686" selection-end="686" vertical-scroll-proportion="-11.56">
+            <state line="35" column="46" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1391871793110" expanded="true" signature="1113:1171" placeholder="CREATE TABLE..muscle_groups..." />
-                <marker date="1391871793110" expanded="true" signature="1202:1229" placeholder="SELECT * FRO..muscle_groups..." />
-                <marker date="1391871793110" expanded="true" signature="1807:1857" placeholder="INSERT INTO ..." />
-                <marker date="1391871793110" expanded="true" signature="2071:2098" placeholder="SELECT * FRO..muscle_groups..." />
-                <marker date="1391871793110" expanded="true" signature="2527:2554" placeholder="SELECT * FRO..muscle_groups..." />
-                <marker date="1391871793110" expanded="true" signature="2678:2728" placeholder="INSERT INTO ..." />
+                <marker date="1391951558722" expanded="true" signature="1111:1162" placeholder="CREATE TABLE..muscle_groups..." />
+                <marker date="1391951558722" expanded="true" signature="1193:1220" placeholder="SELECT * FRO..muscle_groups..." />
+                <marker date="1391951558722" expanded="true" signature="1798:1848" placeholder="INSERT INTO ..." />
+                <marker date="1391951558722" expanded="true" signature="2062:2089" placeholder="SELECT * FRO..muscle_groups..." />
+                <marker date="1391951558722" expanded="true" signature="2520:2547" placeholder="SELECT * FRO..muscle_groups..." />
+                <marker date="1391951558722" expanded="true" signature="2611:2661" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="1" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
+            <state line="9" column="74" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_old.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_old.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="10" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-21.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/data/tricep-exercises.json" />
         <option value="$PROJECT_DIR$/data/shoulder-exercises.json" />
         <option value="$PROJECT_DIR$/data/leg-exercises.json" />
         <option value="$PROJECT_DIR$/data/muscle-group.json" />
@@ -122,14 +121,15 @@
         <option value="$PROJECT_DIR$/data/chest-exercises.json" />
         <option value="$PROJECT_DIR$/angular-index.html" />
         <option value="$PROJECT_DIR$/angular-index2.html" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/app/views/home.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/waa.html" />
+        <option value="$PROJECT_DIR$/bootstrap/config.json" />
         <option value="$PROJECT_DIR$/app/services/services.js" />
         <option value="$PROJECT_DIR$/app/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/app/views/home.html" />
       </list>
     </option>
   </component>
@@ -166,6 +166,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,6 +209,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym-book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -232,7 +251,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,14 +306,14 @@
       <TestRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -328,17 +346,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26840982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2716115" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -448,63 +466,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2070" column="17" selection-start="39223" selection-end="39223" vertical-scroll-proportion="0.2713085">
+        <state line="2070" column="17" selection-start="39223" selection-end="39223" vertical-scroll-proportion="0.27156177">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_old.html">
+    <entry file="file://$PROJECT_DIR$/bootstrap/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.6639053">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-24.192308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="1" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="7" selection-start="1883" selection-end="1883" vertical-scroll-proportion="-29.884615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="59" selection-start="686" selection-end="686" vertical-scroll-proportion="-11.56">
-          <folding>
-            <marker date="1391871793110" expanded="true" signature="1113:1171" placeholder="CREATE TABLE..muscle_groups..." />
-            <marker date="1391871793110" expanded="true" signature="1202:1229" placeholder="SELECT * FRO..muscle_groups..." />
-            <marker date="1391871793110" expanded="true" signature="1807:1857" placeholder="INSERT INTO ..." />
-            <marker date="1391871793110" expanded="true" signature="2071:2098" placeholder="SELECT * FRO..muscle_groups..." />
-            <marker date="1391871793110" expanded="true" signature="2527:2554" placeholder="SELECT * FRO..muscle_groups..." />
-            <marker date="1391871793110" expanded="true" signature="2678:2728" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="137" selection-end="137" vertical-scroll-proportion="-3.4">
+        <state line="10" column="32" selection-start="349" selection-end="349" vertical-scroll-proportion="0.1408284">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="79" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="9" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="10" selection-start="1133" selection-end="1133" vertical-scroll-proportion="-21.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="74" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="46" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1391951558722" expanded="true" signature="1111:1162" placeholder="CREATE TABLE..muscle_groups..." />
+            <marker date="1391951558722" expanded="true" signature="1193:1220" placeholder="SELECT * FRO..muscle_groups..." />
+            <marker date="1391951558722" expanded="true" signature="1798:1848" placeholder="INSERT INTO ..." />
+            <marker date="1391951558722" expanded="true" signature="2062:2089" placeholder="SELECT * FRO..muscle_groups..." />
+            <marker date="1391951558722" expanded="true" signature="2520:2547" placeholder="SELECT * FRO..muscle_groups..." />
+            <marker date="1391951558722" expanded="true" signature="2611:2661" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="40" selection-start="1703" selection-end="1703" vertical-scroll-proportion="1.1056466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="20" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="6" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.8142077">
           <folding />
         </state>
       </provider>

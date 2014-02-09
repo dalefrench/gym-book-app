@@ -54,13 +54,13 @@ a.back{
 
 /*HOME*/
 
-.main-options-list button{
+.main-options-list .routine-btn{
     color:  #8dd2ff;
     background-color: #ffffff;
     border: 1px solid #8dd2ff;
 }
 
-.main-options-list button span{
+.main-options-list .enter-routine-row button span{
     float: right;
     margin-right: 20px;
 }
@@ -88,6 +88,23 @@ a.back{
 
 .add-new-routine-input-container{
     padding: 10px;
+}
+
+.delete-routine-row{
+
+ }
+
+
+.delete-routine-row p{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 6.5pt;
+}
+
+.delete-routine-row button{
+    color:  #ffffff;
+    /*background-color: red;*/
+    border: 0px;
 }
 
 

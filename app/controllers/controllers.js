@@ -1,18 +1,6 @@
-app.controller('HomeController', function($scope, $routeParams, getMuscleGroups){
-    /*dbControl.checkMuscleGroupsExist(function(success){
-        if(success){
-            dbControl.retrieveMuscles(function(muscles){
-                $scope.muscles = muscles
-            });
-//            $scope.muscles = dbControl.retrieveMuscles()
-        }
-    });*/
-    $scope.muscles = getMuscleGroups;
+app.controller('HomeController', function($scope, $routeParams, getMuscleGroups, dbControl){
 
-/*    $scope.addNewMuscle = function(){
-        dbControl.addNewMuscle($scope.newMuscle.name);
-        $scope.muscles.push({name: $scope.newMuscle.name})
-    };*/
+    $scope.muscles = getMuscleGroups;
 
     $scope.showNewRoutine = function(){
         $('.add-new-routine-form-container').slideToggle();
@@ -22,8 +10,14 @@ app.controller('HomeController', function($scope, $routeParams, getMuscleGroups)
     $scope.hideNewRoutine = function(){
         $('.add-new-routine-form-container').slideToggle(function(){
             $('.main-container').css('margin-bottom', '50px');
-//            $scope.newRoutine.name = '';
+            $scope.newRoutine.name = '';
         });
+    };
+
+    $scope.addNewRoutine = function(){
+        dbControl.addNewRoutine($scope.newRoutine.name);
+        $scope.muscles.push({name: $scope.newRoutine.name});
+        $scope.hideNewRoutine();
     };
 });
 

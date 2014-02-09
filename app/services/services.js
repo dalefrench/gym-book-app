@@ -24,14 +24,14 @@ app.service('musclesService', function () {
 
 });
 
-/*
+
 app.service('dbControl', function(musclesService){
     var db = openDatabase('gymBook', '1.0', 'my first database', 2 *1024 * 1024);
     var $this = this;
 
     this.checkMuscleGroupsExist = function(callback){
         db.transaction(function (tx) {
-            tx.executeSql('CREATE TABLE IF NOT EXISTS muscle_groups (id unique, name)');
+            tx.executeSql('CREATE TABLE IF NOT EXISTS muscle_groups (id, name)');
             tx.executeSql('SELECT * FROM muscle_groups', [], function (tx, results) {
                 var len = results.rows.length;
                 if(len < 1){
@@ -68,14 +68,12 @@ app.service('dbControl', function(musclesService){
         });
     };
 
-    this.addNewMuscle = function(newMuscle){
+    this.addNewRoutine = function(newRoutine){
         db.transaction(function (tx) {
             tx.executeSql('SELECT * FROM muscle_groups', [], function (tx2, results) {
-                var len = results.rows.length;
-
+                tx.executeSql('INSERT INTO muscle_groups (id, name) VALUES (?, ?)', [results.rows.length+1, newRoutine]);
             });
-            tx.executeSql('INSERT INTO muscle_groups (id, name) VALUES (?, ?)', 7, newMuscle);
         });
-    }
+    };
 
-});*/
+});
