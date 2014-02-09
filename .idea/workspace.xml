@@ -16,8 +16,8 @@
     <file path="/chest-exercises.json" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391555164597" ignored="false" />
     <file path="/muscle-group.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391555708524" ignored="false" />
     <file path="/angular-index.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391715294699" ignored="false" />
-    <file path="/controllers.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391974396132" ignored="false" />
-    <file path="/services.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391974063189" ignored="false" />
+    <file path="/controllers.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391975052283" ignored="false" />
+    <file path="/services.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391975654447" ignored="false" />
     <file path="/app.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391971530596" ignored="false" />
     <file path="/muscles.html" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391716257029" ignored="false" />
     <file path="/filters.js" changelist="cda9d398-c794-4749-afc8-62b0355a1ec8" time="1391715397338" ignored="false" />
@@ -51,16 +51,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+            <state line="14" column="66" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercises.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="exercises.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/exercises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="0.12071006">
+            <state line="6" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
@@ -93,19 +93,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+            <state line="45" column="41" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.5464983">
               <folding>
-                <element signature="e#1097#3061#0" expanded="false" />
-                <marker date="1391974444294" expanded="true" signature="1314:1360" placeholder="CREATE TABLE..routines..." />
-                <marker date="1391974444294" expanded="true" signature="1391:1413" placeholder="SELECT * FRO..routines..." />
-                <marker date="1391974444294" expanded="true" signature="1935:1980" placeholder="INSERT INTO ..." />
-                <marker date="1391974444294" expanded="true" signature="2199:2221" placeholder="SELECT * FRO..routines..." />
-                <marker date="1391974444294" expanded="true" signature="2684:2706" placeholder="SELECT * FRO..routines..." />
-                <marker date="1391974444294" expanded="true" signature="2770:2815" placeholder="INSERT INTO ..." />
-                <marker date="1391974444294" expanded="true" signature="2997:3030" placeholder="DELETE FROM ..." />
+                <marker date="1391975655140" expanded="true" signature="1314:1360" placeholder="CREATE TABLE..routines..." />
+                <marker date="1391975655140" expanded="true" signature="1391:1413" placeholder="SELECT * FRO..routines..." />
+                <marker date="1391975655140" expanded="true" signature="1981:2026" placeholder="INSERT INTO ..." />
+                <marker date="1391975655140" expanded="true" signature="2276:2298" placeholder="SELECT * FRO..routines..." />
+                <marker date="1391975655140" expanded="true" signature="2761:2783" placeholder="SELECT * FRO..routines..." />
+                <marker date="1391975655140" expanded="true" signature="2847:2892" placeholder="INSERT INTO ..." />
+                <marker date="1391975655140" expanded="true" signature="3074:3107" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -141,7 +140,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+            <state line="7" column="38" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -624,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/partials/mainListItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="778" selection-end="778" vertical-scroll-proportion="-5.230769">
@@ -652,6 +644,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/exercises.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="66" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="15" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
@@ -659,33 +672,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+        <state line="45" column="41" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.5464983">
           <folding>
-            <element signature="e#1097#3061#0" expanded="false" />
-            <marker date="1391974444294" expanded="true" signature="1314:1360" placeholder="CREATE TABLE..routines..." />
-            <marker date="1391974444294" expanded="true" signature="1391:1413" placeholder="SELECT * FRO..routines..." />
-            <marker date="1391974444294" expanded="true" signature="1935:1980" placeholder="INSERT INTO ..." />
-            <marker date="1391974444294" expanded="true" signature="2199:2221" placeholder="SELECT * FRO..routines..." />
-            <marker date="1391974444294" expanded="true" signature="2684:2706" placeholder="SELECT * FRO..routines..." />
-            <marker date="1391974444294" expanded="true" signature="2770:2815" placeholder="INSERT INTO ..." />
-            <marker date="1391974444294" expanded="true" signature="2997:3030" placeholder="DELETE FROM ..." />
+            <marker date="1391975655140" expanded="true" signature="1314:1360" placeholder="CREATE TABLE..routines..." />
+            <marker date="1391975655140" expanded="true" signature="1391:1413" placeholder="SELECT * FRO..routines..." />
+            <marker date="1391975655140" expanded="true" signature="1981:2026" placeholder="INSERT INTO ..." />
+            <marker date="1391975655140" expanded="true" signature="2276:2298" placeholder="SELECT * FRO..routines..." />
+            <marker date="1391975655140" expanded="true" signature="2761:2783" placeholder="SELECT * FRO..routines..." />
+            <marker date="1391975655140" expanded="true" signature="2847:2892" placeholder="INSERT INTO ..." />
+            <marker date="1391975655140" expanded="true" signature="3074:3107" placeholder="DELETE FROM ..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/exercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="55" selection-start="246" selection-end="246" vertical-scroll-proportion="0.12071006">
-          <folding />
         </state>
       </provider>
     </entry>

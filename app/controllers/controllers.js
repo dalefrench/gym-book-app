@@ -1,4 +1,9 @@
-app.controller('HomeController', function($scope, $routeParams, getRoutines, dbControl, listControl){
+app.controller('HomeController', function($scope, $routeParams, getRoutines, dbControl, listControl, routinesService){
+
+    routinesService.getRoutines(function(meh){
+       console.log(meh);
+
+    });
 
     $scope.routines     = getRoutines;
     $scope.newRoutine   = {name: ''};

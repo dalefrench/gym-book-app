@@ -43,21 +43,23 @@ app.service('dbControl', function(routinesService){
             tx.executeSql('SELECT * FROM routines', [], function (tx, results) {
                 var len = results.rows.length;
                 if(len < 1){
-                    $this.addDefaultRoutines();
-                    callback(true)
+                    $this.addDefaultRoutines(function(){
+                        callback(true)
+                    });
                 }else{
-                    callback(true)
+                    callback(false)
                 }
             });
         });
     };
 
-    this.addDefaultRoutines = function(){
+    this.addDefaultRoutines = function(callback){
         routinesService.getRoutines(function(routines){
             db.transaction(function (tx) {
                 for( routine in routines){
                     tx.executeSql('INSERT INTO routines (id, name) VALUES (?, ?)', [routines[routine].id, routines[routine].name]);
                 }
+                callback(true)
             });
         })
     };
