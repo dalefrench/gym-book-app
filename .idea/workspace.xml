@@ -60,7 +60,7 @@
       <file leaf-file-name="directives.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="338" selection-end="338" vertical-scroll-proportion="0.31228474">
+            <state line="16" column="3" selection-start="347" selection-end="347" vertical-scroll-proportion="0.31228474">
               <folding />
             </state>
           </provider>
@@ -201,24 +201,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gym-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gym-book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="chest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -280,6 +262,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym-book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,6 +389,7 @@
       <recent name="C:\Sites\gym-book\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\gym-book\app\views\partials" />
       <recent name="C:\Sites\gym-book" />
       <recent name="C:\Sites\gym-app\html\chest" />
     </key>
@@ -569,14 +574,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/partials/mainListItem.html">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/mainListItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="778" selection-end="778" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/partials/addListItem.html">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/addListItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="41" selection-start="191" selection-end="191" vertical-scroll-proportion="-2.6153846">
           <folding />
@@ -628,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="338" selection-end="338" vertical-scroll-proportion="0.31228474">
+        <state line="16" column="3" selection-start="347" selection-end="347" vertical-scroll-proportion="0.31228474">
           <folding />
         </state>
       </provider>

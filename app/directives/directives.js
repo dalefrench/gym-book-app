@@ -1,7 +1,7 @@
 app.directive('mainListItem', function(){
     return {
         restrict: 'E',
-        templateUrl: '/html/partials/mainListItem.html'
+        templateUrl: 'app/views/partials/mainListItem.html'
     }
 });
 
@@ -9,7 +9,7 @@ app.directive('mainListItem', function(){
 app.directive('addListItem', function(){
     return {
         restrict: 'E',
-        templateUrl: '/html/partials/addListItem.html',
+        templateUrl: 'app/views/partials/addListItem.html',
         scope:{
             btnText: '='
         }
