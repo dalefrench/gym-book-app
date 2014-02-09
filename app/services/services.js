@@ -47,7 +47,7 @@ app.service('dbControl', function(routinesService){
                         callback(true)
                     });
                 }else{
-                    callback(false)
+                    callback(true)
                 }
             });
         });
