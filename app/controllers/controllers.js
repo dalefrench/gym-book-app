@@ -1,14 +1,16 @@
-app.controller('HomeController', function($scope, $routeParams, getMuscleGroups, dbControl){
+app.controller('HomeController', function($scope, $routeParams, getRoutines, dbControl, listControl){
 
-    $scope.muscles = getMuscleGroups;
+    $scope.routines     = getRoutines;
+    $scope.newRoutine   = {name: ''};
+    $scope.nextLevel    = 'exercises';
+    $scope.exerciseText = 'Add New Routine';
 
-    $scope.showNewRoutine = function(){
-        $('.add-new-routine-form-container').slideToggle();
-        $('.main-container').css('margin-bottom', '95px');
+    $scope.showNewListItem = function(){
+        listControl.showNewListItem();
     };
 
-    $scope.hideNewRoutine = function(){
-        $('.add-new-routine-form-container').slideToggle(function(){
+    $scope.hideNewListItem  = function(){
+        $('.add-list-item-form-container').slideToggle(function(){
             $('.main-container').css('margin-bottom', '50px');
             $scope.newRoutine.name = '';
         });
@@ -16,18 +18,33 @@ app.controller('HomeController', function($scope, $routeParams, getMuscleGroups,
 
     $scope.addNewRoutine = function(){
         dbControl.addNewRoutine($scope.newRoutine.name);
-        $scope.muscles.push({name: $scope.newRoutine.name});
+        $scope.routines.push({name: $scope.newRoutine.name});
         $scope.hideNewRoutine();
     };
+
+    $scope.deleteListItem = function(event, id){
+        var row = $(event.srcElement).parents('.routine-row');
+        row.slideToggle(function(){
+            row.remove();
+        });
+
+        dbControl.deleteRoutine(id);
+    }
 });
 
 
 
 
-app.controller('MusclesController', function($scope, $routeParams, getExercises){
-    $scope.exercises = getExercises;
+app.controller('ExerciseController', function($scope, $routeParams, getExercises){
+    $scope.exercises    = getExercises;
+    $scope.nextLevel    = 'exerciseDetail';
+    $scope.exerciseText = 'Add New Exercise';
 
     $scope.addNewExercise = function(){
         $scope.exercises.push({name: $scope.newExercise.name});
+    };
+
+    $scope.back = function(){
+        window.location='#back';
     }
 });

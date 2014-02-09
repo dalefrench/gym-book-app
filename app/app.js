@@ -7,13 +7,13 @@ app.config(function ($routeProvider) {
             controller: 'HomeController',
             templateUrl: 'app/views/home.html',
             resolve :{
-                getMuscleGroups:function($q, $route, $timeout, dbControl){
+                getRoutines:function($q, $route, $timeout, dbControl){
                     var deferred = $q.defer();
 
-                    dbControl.checkMuscleGroupsExist(function(success){
+                    dbControl.checkRoutinesExist(function(success){
                         if(success){
-                            dbControl.retrieveMuscles(function(muscles){
-                                deferred.resolve(muscles)
+                            dbControl.retrieveRoutines(function(routines){
+                                deferred.resolve(routines)
                             });
                         }
                     });
@@ -22,16 +22,16 @@ app.config(function ($routeProvider) {
                 }
             }
         })
-        //Define a route that has a route parameter in it (:customerID)
-        .when('/muscle/:muscleName',
+        .when('/exercises/:routineName',
         {
-            controller: 'MusclesController',
-            templateUrl: 'app/views/muscles.html',
+            controller: 'ExerciseController',
+            templateUrl: 'app/views/exercises.html',
             resolve :{
-                getExercises:function($q, $route, $timeout, musclesService){
+                getExercises:function($q, $route, $timeout, routinesService){
+
                     var deferred = $q.defer();
 
-                    musclesService.getMuscleExercises($route.current.params.muscleName, function(exersises){
+                    routinesService.getRoutineExercises($route.current.params.routineName, function(exersises){
                         deferred.resolve(exersises)
                     });
 

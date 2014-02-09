@@ -1,18 +1,18 @@
-app.service('musclesService', function () {
+app.service('routinesService', function () {
 
-    this.getMuscleGroups = function (callback) {
-        $.getJSON("data/muscle-group.json", function(muscles) {
-            var newMuscles = [];
-            for (muscle in muscles){
-                newMuscles.push(muscles[muscle]);
+    this.getRoutines = function (callback) {
+        $.getJSON("data/routines.json", function(routines) {
+            var newRoutines = [];
+            for (routine in routines){
+                newRoutines.push(routines[routine]);
             }
             // Turn to array to make it easier to add new exercises.
-            callback(newMuscles);
+            callback(newRoutines);
         });
     };
 
-    this.getMuscleExercises = function(muscle, callback){
-        $.getJSON("data/"+muscle+"-exercises.json", function(exercises) {
+    this.getRoutineExercises = function(routine, callback){
+        $.getJSON("data/"+routine+"-exercises.json", function(exercises) {
             var newExercises = [];
                 for (exercise in exercises){
                     newExercises.push(exercises[exercise]);
@@ -24,55 +24,68 @@ app.service('musclesService', function () {
 
 });
 
+app.service('listControl', function(){
 
-app.service('dbControl', function(musclesService){
-    var db = openDatabase('gymBook', '1.0', 'my first database', 2 *1024 * 1024);
+    this.showNewListItem = function(){
+        $('.add-list-item-form-container').slideToggle();
+        $('.main-container').css('margin-bottom', '95px');
+    };
+
+});
+
+app.service('dbControl', function(routinesService){
+    var db = openDatabase('gymBook', '1.0', 'Gym Book DB', 2 *1024 * 1024);
     var $this = this;
 
-    this.checkMuscleGroupsExist = function(callback){
+    this.checkRoutinesExist = function(callback){
         db.transaction(function (tx) {
-            tx.executeSql('CREATE TABLE IF NOT EXISTS muscle_groups (id, name)');
-            tx.executeSql('SELECT * FROM muscle_groups', [], function (tx, results) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS routines (id, name)');
+            tx.executeSql('SELECT * FROM routines', [], function (tx, results) {
                 var len = results.rows.length;
                 if(len < 1){
-                    $this.addDefaultMuscleGroups();
+                    $this.addDefaultRoutines();
                     callback(true)
                 }else{
-                    console.log('Has Records');
                     callback(true)
                 }
             });
         });
     };
 
-    this.addDefaultMuscleGroups = function(){
-        musclesService.getMuscleGroups(function(muscles){
+    this.addDefaultRoutines = function(){
+        routinesService.getRoutines(function(routines){
             db.transaction(function (tx) {
-                for( muscle in muscles){
-                    tx.executeSql('INSERT INTO muscle_groups (id, name) VALUES (?, ?)', [muscles[muscle].id, muscles[muscle].name]);
+                for( routine in routines){
+                    tx.executeSql('INSERT INTO routines (id, name) VALUES (?, ?)', [routines[routine].id, routines[routine].name]);
                 }
             });
         })
     };
 
-    this.retrieveMuscles = function(callback){
+    this.retrieveRoutines = function(callback){
         db.transaction(function (tx) {
-            tx.executeSql('SELECT * FROM muscle_groups', [], function (tx, results) {
+            tx.executeSql('SELECT * FROM routines', [], function (tx, results) {
                 var len = results.rows.length, i;
-                var muscles = [];
+                var routines = [];
                 for (i = 0; i < len; i++) {
-                    muscles.push({name: results.rows.item(i).name});
+                    routines.push({name: results.rows.item(i).name, id: results.rows.item(i).id});
                 }
-                callback(muscles);
+                callback(routines);
             });
         });
     };
 
     this.addNewRoutine = function(newRoutine){
         db.transaction(function (tx) {
-            tx.executeSql('SELECT * FROM muscle_groups', [], function (tx2, results) {
-                tx.executeSql('INSERT INTO muscle_groups (id, name) VALUES (?, ?)', [results.rows.length+1, newRoutine]);
+            tx.executeSql('SELECT * FROM routines', [], function (tx2, results) {
+                tx.executeSql('INSERT INTO routines (id, name) VALUES (?, ?)', [results.rows.length+1, newRoutine]);
             });
+        });
+    };
+
+    this.deleteRoutine = function(id){
+        db.transaction(function (tx) {
+            tx.executeSql('DELETE FROM routines WHERE id = ?', [id]);
         });
     };
 

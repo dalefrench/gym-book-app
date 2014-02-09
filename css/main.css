@@ -26,14 +26,14 @@ a.back{
 .settings-nav-btn{
     position: relative;
     float: right;
-    margin-right: 15px;
-    padding: 5px 20px;
-    margin-top: 8px;
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: 1px solid #d3d3d3;
-    border-radius: 4px;
+    border: 0px solid #d3d3d3;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    border-left: 1px solid;
 }
 
 .main-nav-bar{
@@ -54,29 +54,25 @@ a.back{
 
 /*HOME*/
 
-.main-options-list .routine-btn{
+.main-options-list .list-item-btn{
     color:  #8dd2ff;
     background-color: #ffffff;
     border: 1px solid #8dd2ff;
 }
 
-.main-options-list .enter-routine-row button span{
+.main-options-list .enter-list-item a span{
     float: right;
     margin-right: 20px;
 }
 
-.add-new-routine-container{
+.add-list-item-container{
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.add-new-routine-container button{
-    border-radius: 0px !important;
-}
-
-.add-new-routine-form-container{
+.add-list-item-form-container{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -86,16 +82,13 @@ a.back{
     display: none;
 }
 
-.add-new-routine-input-container{
+.add-list-item-input-container{
     padding: 10px;
 }
 
-.delete-routine-row{
-
- }
 
 
-.delete-routine-row p{
+.delete-list-item p{
     text-align: center;
     padding-top: 8px;
     font-size: 6.5pt;
